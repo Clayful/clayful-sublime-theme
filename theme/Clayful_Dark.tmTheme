@@ -274,6 +274,7 @@
 				<string>#fffffaff</string>
 			</dict>
 		</dict>
+		<!-- Diff Styling -->
         <dict>
             <key>name</key>
             <string>diff.header</string>
@@ -318,6 +319,266 @@
                 <string>#FFE185</string>
             </dict>
         </dict>
+        <!-- PlainTasks Styles -->
+		<dict>
+			<key>name</key>
+			<string>Todo Header</string>
+			<key>scope</key>
+			<string>keyword.control.header.todo</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#5181e9ff</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tags</string>
+			<key>scope</key>
+			<string>meta.tag.todo</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#838999</string>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Done meta info</string>
+			<key>scope</key>
+			<string>meta.tag.todo.completed</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#686c79ff</string>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Cancel meta info</string>
+			<key>scope</key>
+			<string>meta.tag.todo.cancelled</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#686c79ff</string>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Pending task</string>
+			<key>scope</key>
+			<string>meta.item.todo.pending</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E4E7EF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Cancelled task</string>
+			<key>scope</key>
+			<string>meta.item.todo.cancelled</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#686c79ff</string>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Notes</string>
+			<key>scope</key>
+			<string>notes.todo</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#838999</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bold</string>
+			<key>scope</key>
+			<string>todo.bold</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Italic</string>
+			<key>scope</key>
+			<string>todo.italic</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>URL</string>
+			<key>scope</key>
+			<string>todo.url</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#838999</string>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bold punctuation</string>
+			<key>scope</key>
+			<string>punctuation.definition.bold</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#686c79ff</string>
+				<key>fontStyle</key>
+				<string>normal</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Italic punctuation</string>
+			<key>scope</key>
+			<string>punctuation.definition.italic</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#686c79ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Done bullet</string>
+			<key>scope</key>
+			<string>punctuation.definition.bullet.completed</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#07BD6E</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Pending bullet</string>
+			<key>scope</key>
+			<string>punctuation.definition.bullet.pending</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CCCCCC</string>
+				<key>fontStyle</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Cancelled bullet</string>
+			<key>scope</key>
+			<string>punctuation.definition.bullet.cancelled</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff6fb0ff</string>
+				<key>fontStyle</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Archive Separator</string>
+			<key>scope</key>
+			<string>meta.punctuation.archive.todo</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#686c79ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Separator</string>
+			<key>scope</key>
+			<string>meta.punctuation.separator.todo</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#686c79ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Today</string>
+			<key>scope</key>
+			<string>string.other.tag.todo.today</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#5181e9ff</string>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>High</string>
+			<key>scope</key>
+			<string>string.other.tag.todo.high</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffe185ff</string>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Low</string>
+			<key>scope</key>
+			<string>string.other.tag.todo.low</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#838999</string>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Critical</string>
+			<key>scope</key>
+			<string>string.other.tag.todo.critical</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff6fb0ff</string>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>D8D5E82E-3D5B-46B5-B38E-8C841C21347D</string>
