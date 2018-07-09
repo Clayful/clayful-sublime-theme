@@ -16,11 +16,11 @@
 				<key>background</key>
 				<string>#FCFCFC</string>
 				<key>caret</key>
-				<string>#424242</string>
+				<string>#80424242</string>
 				<key>foreground</key>
 				<string>#424242</string>
 				<key>invisibles</key>
-				<string>#424242</string>
+				<string>#F0F0F0</string>
 				<key>lineHighlight</key>
 				<string>#F0F0F0</string>
 				<key>selection</key>
