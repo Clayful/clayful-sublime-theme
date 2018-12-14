@@ -16,11 +16,11 @@
 				<key>background</key>
 				<string>#202229</string>
 				<key>caret</key>
-				<string>#808AA9F2</string>
+				<string>#8AA9F2</string>
 				<key>foreground</key>
 				<string>#F0F0F0</string>
 				<key>invisibles</key>
-				<string>#282C3B</string>
+				<string>#F0F0F0</string>
 				<key>lineHighlight</key>
 				<string>#282C3B</string>
 				<key>selection</key>
@@ -173,7 +173,18 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ffffffff</string>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Function argument</string>
+			<key>scope</key>
+			<string>variable.parameter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -274,52 +285,85 @@
 				<string>#fffffaff</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Object Key</string>
+			<key>scope</key>
+			<string>meta.object-literal.key</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#5181e9ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Function Call</string>
+			<key>scope</key>
+			<string>variable.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffe185ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Template Expression</string>
+			<key>scope</key>
+			<string>punctuation.definition.template-expression</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#999999</string>
+			</dict>
+		</dict>
 		<!-- Diff Styling -->
-        <dict>
-            <key>name</key>
-            <string>diff.header</string>
-            <key>scope</key>
-            <string>meta.diff, meta.diff.header</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#5181E9</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>diff.deleted</string>
-            <key>scope</key>
-            <string>markup.deleted</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FF6FB0</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>diff.inserted</string>
-            <key>scope</key>
-            <string>markup.inserted</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#07BD6E</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>diff.changed</string>
-            <key>scope</key>
-            <string>markup.changed</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FFE185</string>
-            </dict>
-        </dict>
-        <!-- PlainTasks Styles -->
+		<dict>
+			<key>name</key>
+			<string>diff.header</string>
+			<key>scope</key>
+			<string>meta.diff, meta.diff.header</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#5181E9</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>diff.deleted</string>
+			<key>scope</key>
+			<string>markup.deleted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF6FB0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>diff.inserted</string>
+			<key>scope</key>
+			<string>markup.inserted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#07BD6E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>diff.changed</string>
+			<key>scope</key>
+			<string>markup.changed</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFE185</string>
+			</dict>
+		</dict>
+		<!-- PlainTasks Styles -->
 		<dict>
 			<key>name</key>
 			<string>Todo Header</string>
